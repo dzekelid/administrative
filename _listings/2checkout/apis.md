@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2169-2chec
 x-kinRank: "9"
 x-alexaRank: "23277"
 tags: Administrative
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/2checkout/apis.md
 specificationVersion: "0.14"
-apis:
-- name: 2Checkout
-  x-api-slug: 2checkout
-  description: Accept payments online. 2Checkout.com is an online payment processing
-    service that helps you accept credit cards, PayPal and debit cards.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2169-2checkout.jpg
-  humanURL: https://www.2checkout.com/
-  baseURL: https:///
-  tags: Administrative
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/2checkout/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://www.2checkout.com/blog

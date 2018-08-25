@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Administrative
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Respoke
-  x-api-slug: respoke
-  description: add-live-voice-video-text-and-data-features-to-your-website-or-app-
+- name: Respoke REST API - Admin Sessions
+  x-api-slug: adminsessions-post
+  description: Log in with the account username and password. Get an Admin-Token.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg
   humanURL: https://www.respoke.io
   baseURL: https://api.respoke.io/v1/
@@ -25,9 +25,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/adminsessions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/adminsessions-post-openapi.md
-- name: Respoke
-  x-api-slug: respoke
-  description: add-live-voice-video-text-and-data-features-to-your-website-or-app-
+- name: Respoke REST API - Admin Sessions
+  x-api-slug: adminsessions-post
+  description: Log in with the account username and password. Get an Admin-Token.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg
   humanURL: https://www.respoke.io
   baseURL: https://api.respoke.io/v1/
@@ -37,20 +37,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/adminsessions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/adminsessions-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/adminsessions-post-openapi.md
-- name: Respoke
-  x-api-slug: respoke
-  description: Respoke makes it incredibly easy to add real-time communications capabilities
-    to the things you build. Integrate text chat, audio calling, video collaboration,
-    screen sharing, and peer-to-peer data with just a few lines of JavaScript.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/respoke-web-communications-300x101.jpg
-  humanURL: https://www.respoke.io
-  baseURL: https://api.respoke.io/v1/
-  tags: Administrative
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/respoke/openapi.md
 x-common:
 - type: x-account-management
   url: https://portal.respoke.io/#/account?section=Profile
