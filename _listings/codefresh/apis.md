@@ -9,11 +9,251 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-code
 x-kinRank: "7"
 x-alexaRank: "240033"
 tags: Administrative
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccounts-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-get-openapi.md
+- name: Codefresh API - Post Admin Accounts
+  x-api-slug: adminaccounts-post
+  description: Post admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-post-openapi.md
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccountsid-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-get-openapi.md
+- name: Codefresh API - Delete Admin Accounts
+  x-api-slug: adminaccountsid-delete
+  description: Delete admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-delete-openapi.md
+- name: Codefresh API - Post Admin Accounts Update
+  x-api-slug: adminaccountsidupdate-post
+  description: Post admin accounts update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsidupdate-post-openapi.md
+- name: Codefresh API - Post Admin Accounts Addpendinguser
+  x-api-slug: adminaccountsaddpendinguser-post
+  description: Post admin accounts addpendinguser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsaddpendinguser-post-openapi.md
+- name: Codefresh API - Post Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-post
+  description: Post accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-post-openapi.md
+- name: Codefresh API - Delete Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-delete
+  description: Delete accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-delete-openapi.md
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccounts-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-get-openapi.md
+- name: Codefresh API - Post Admin Accounts
+  x-api-slug: adminaccounts-post
+  description: Post admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-post-openapi.md
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccountsid-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-get-openapi.md
+- name: Codefresh API - Delete Admin Accounts
+  x-api-slug: adminaccountsid-delete
+  description: Delete admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-delete-openapi.md
+- name: Codefresh API - Post Admin Accounts Update
+  x-api-slug: adminaccountsidupdate-post
+  description: Post admin accounts update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsidupdate-post-openapi.md
+- name: Codefresh API - Post Admin Accounts Addpendinguser
+  x-api-slug: adminaccountsaddpendinguser-post
+  description: Post admin accounts addpendinguser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsaddpendinguser-post-openapi.md
+- name: Codefresh API - Post Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-post
+  description: Post accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-post-openapi.md
+- name: Codefresh API - Delete Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-delete
+  description: Delete accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-delete-openapi.md
+- name: Codefresh API - Delete Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-delete
+  description: Delete accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-delete-openapi.md
+- name: Codefresh API - Post Accounts Admin
+  x-api-slug: accountsaccountiduseridadmin-post
+  description: Post accounts admin.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/accountsaccountiduseridadmin-post-openapi.md
+- name: Codefresh API - Post Admin Accounts Addpendinguser
+  x-api-slug: adminaccountsaddpendinguser-post
+  description: Post admin accounts addpendinguser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsaddpendinguser-post-openapi.md
+- name: Codefresh API - Post Admin Accounts Update
+  x-api-slug: adminaccountsidupdate-post
+  description: Post admin accounts update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsidupdate-post-openapi.md
+- name: Codefresh API - Delete Admin Accounts
+  x-api-slug: adminaccountsid-delete
+  description: Delete admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-delete-openapi.md
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccountsid-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccountsid-get-openapi.md
+- name: Codefresh API - Post Admin Accounts
+  x-api-slug: adminaccounts-post
+  description: Post admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-post-openapi.md
+- name: Codefresh API - Get Admin Accounts
+  x-api-slug: adminaccounts-get
+  description: Get admin accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/codefresh/adminaccounts-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://code.gov.api.gallery.streamdata.io

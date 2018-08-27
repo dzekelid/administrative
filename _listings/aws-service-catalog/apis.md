@@ -12,11 +12,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Administrative
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/aws-service-catalog/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Service Catalog API - Describe Product As Admin
+  x-api-slug: actiondescribeproductasadmin-get
+  description: |-
+    Retrieves information about a specified product, run with administrator
+             access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/aws-service-catalog/actiondescribeproductasadmin-get-openapi.md
+- name: AWS Service Catalog API - Search Products As Admin
+  x-api-slug: actionsearchproductsasadmin-get
+  description: |-
+    Retrieves summary and status information about all products created within the
+             caller's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/aws-service-catalog/actionsearchproductsasadmin-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.server.migration.service.api.gallery.streamdata.io

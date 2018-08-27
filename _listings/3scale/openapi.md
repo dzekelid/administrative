@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 1
@@ -18,4 +17,53 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /admin/api/accounts/{account_id}/users/{id}/admin.xml:
+    put:
+      summary: User change Role to Admin
+      description: User change role to admin.
+      operationId: user
+      x-api-path-slug: adminapiaccountsaccount-idusersidadmin-xml-put
+      parameters:
+      - in: path
+        name: account_id
+        description: id of the account
+      - in: path
+        name: id
+        description: id of the user
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Change
+      - Role
+      - To
+      - Admin
+  /admin/api/users/{id}/admin.xml:
+    put:
+      summary: User change Role to Admin (provider account)
+      description: User change role to admin (provider account).
+      operationId: user_provider_account
+      x-api-path-slug: adminapiusersidadmin-xml-put
+      parameters:
+      - in: path
+        name: id
+        description: id of the user
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Change
+      - Role
+      - To
+      - Admin
+      - (provider
+      - Account)

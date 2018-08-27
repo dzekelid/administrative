@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 1
@@ -19,4 +18,24 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /accounts/{accountKey}/organizers:
+    get:
+      summary: 'DEPRECATED: Get Organizers'
+      description: 'DEPRECATED: Please use the Admin API call ''Get all users'' instead.
+        For details see https://developer.citrixonline.com/get-all-users.'
+      operationId: getAllOrganisers
+      x-api-path-slug: accountsaccountkeyorganizers-get
+      parameters:
+      - in: path
+        name: accountKey
+        description: The key of the multi-user account
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - AccountKey
+      - Organizers

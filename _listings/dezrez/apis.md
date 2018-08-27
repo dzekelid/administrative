@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Administrative
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: "Dezrez.Rezi.Client.Api - Redact a Person by PersonId\r\nFirst request is
+    just logged as an event \r\nSecond request must be by a branch admin and actually
+    redacts the person"
+  x-api-slug: apipeopleidredact-post
+  description: "Redact a person by personid\r\nfirst request is just logged as an
+    event \r\nsecond request must be by a branch admin and actually redacts the person."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/dezrez/apipeopleidredact-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/administrative/master/_listings/dezrez/apipeopleidredact-post-openapi.md
 - name: "Dezrez.Rezi.Client.Api - Redact a Person by PersonId\r\nFirst request is
     just logged as an event \r\nSecond request must be by a branch admin and actually
     redacts the person"
